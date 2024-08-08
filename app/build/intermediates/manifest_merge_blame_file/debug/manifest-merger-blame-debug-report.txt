@@ -1,0 +1,114 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.gestionimmobilier"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->/Users/hyldailuobe/AndroidStudioProjects/GestionImmobilier/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/hyldailuobe/AndroidStudioProjects/GestionImmobilier/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/Users/hyldailuobe/AndroidStudioProjects/GestionImmobilier/app/src/main/AndroidManifest.xml:5:5-34:19
+12        android:allowBackup="true"
+12-->/Users/hyldailuobe/AndroidStudioProjects/GestionImmobilier/app/src/main/AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.7.0] /Users/hyldailuobe/.gradle/caches/transforms-3/0212d0c0c0b99c5d00c15a82a811f4d1/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+14        android:dataExtractionRules="@xml/data_extraction_rules"
+14-->/Users/hyldailuobe/AndroidStudioProjects/GestionImmobilier/app/src/main/AndroidManifest.xml:7:9-65
+15        android:debuggable="true"
+16        android:extractNativeLibs="false"
+17        android:fullBackupContent="@xml/backup_rules"
+17-->/Users/hyldailuobe/AndroidStudioProjects/GestionImmobilier/app/src/main/AndroidManifest.xml:8:9-54
+18        android:icon="@mipmap/ic_launcher"
+18-->/Users/hyldailuobe/AndroidStudioProjects/GestionImmobilier/app/src/main/AndroidManifest.xml:9:9-43
+19        android:label="@string/app_name"
+19-->/Users/hyldailuobe/AndroidStudioProjects/GestionImmobilier/app/src/main/AndroidManifest.xml:10:9-41
+20        android:supportsRtl="true"
+20-->/Users/hyldailuobe/AndroidStudioProjects/GestionImmobilier/app/src/main/AndroidManifest.xml:11:9-35
+21        android:testOnly="true"
+22        android:theme="@style/Theme.GestionImmobilier" >
+22-->/Users/hyldailuobe/AndroidStudioProjects/GestionImmobilier/app/src/main/AndroidManifest.xml:12:9-55
+23        <activity android:name="com.example.gestionimmobilier.controleur.ReservationsAjoutActivity" />
+23-->/Users/hyldailuobe/AndroidStudioProjects/GestionImmobilier/app/src/main/AndroidManifest.xml:13:9-74
+23-->/Users/hyldailuobe/AndroidStudioProjects/GestionImmobilier/app/src/main/AndroidManifest.xml:13:19-71
+24        <activity android:name="com.example.gestionimmobilier.controleur.ReservationsConsultDetailsActivity" />
+24-->/Users/hyldailuobe/AndroidStudioProjects/GestionImmobilier/app/src/main/AndroidManifest.xml:14:9-83
+24-->/Users/hyldailuobe/AndroidStudioProjects/GestionImmobilier/app/src/main/AndroidManifest.xml:14:19-80
+25        <activity android:name="com.example.gestionimmobilier.controleur.ReservationsConsultActivity" />
+25-->/Users/hyldailuobe/AndroidStudioProjects/GestionImmobilier/app/src/main/AndroidManifest.xml:15:9-76
+25-->/Users/hyldailuobe/AndroidStudioProjects/GestionImmobilier/app/src/main/AndroidManifest.xml:15:19-73
+26        <activity android:name="com.example.gestionimmobilier.controleur.LocatairesAjoutActivity" />
+26-->/Users/hyldailuobe/AndroidStudioProjects/GestionImmobilier/app/src/main/AndroidManifest.xml:16:9-72
+26-->/Users/hyldailuobe/AndroidStudioProjects/GestionImmobilier/app/src/main/AndroidManifest.xml:16:19-69
+27        <activity android:name="com.example.gestionimmobilier.controleur.LocatairesConsultDetailsActivity" />
+27-->/Users/hyldailuobe/AndroidStudioProjects/GestionImmobilier/app/src/main/AndroidManifest.xml:17:9-81
+27-->/Users/hyldailuobe/AndroidStudioProjects/GestionImmobilier/app/src/main/AndroidManifest.xml:17:19-78
+28        <activity android:name="com.example.gestionimmobilier.controleur.LocatairesConsultActivity" />
+28-->/Users/hyldailuobe/AndroidStudioProjects/GestionImmobilier/app/src/main/AndroidManifest.xml:18:9-74
+28-->/Users/hyldailuobe/AndroidStudioProjects/GestionImmobilier/app/src/main/AndroidManifest.xml:18:19-71
+29        <activity android:name="com.example.gestionimmobilier.controleur.VillaAjoutActivity" />
+29-->/Users/hyldailuobe/AndroidStudioProjects/GestionImmobilier/app/src/main/AndroidManifest.xml:19:9-67
+29-->/Users/hyldailuobe/AndroidStudioProjects/GestionImmobilier/app/src/main/AndroidManifest.xml:19:19-64
+30        <activity android:name="com.example.gestionimmobilier.controleur.EquipementsModifierSupprimerActivity" />
+30-->/Users/hyldailuobe/AndroidStudioProjects/GestionImmobilier/app/src/main/AndroidManifest.xml:20:9-85
+30-->/Users/hyldailuobe/AndroidStudioProjects/GestionImmobilier/app/src/main/AndroidManifest.xml:20:19-82
+31        <activity android:name="com.example.gestionimmobilier.controleur.EquipementsAjoutActivity" />
+31-->/Users/hyldailuobe/AndroidStudioProjects/GestionImmobilier/app/src/main/AndroidManifest.xml:21:9-73
+31-->/Users/hyldailuobe/AndroidStudioProjects/GestionImmobilier/app/src/main/AndroidManifest.xml:21:19-70
+32        <activity android:name="com.example.gestionimmobilier.controleur.EquipementsConsultActivity" />
+32-->/Users/hyldailuobe/AndroidStudioProjects/GestionImmobilier/app/src/main/AndroidManifest.xml:22:9-75
+32-->/Users/hyldailuobe/AndroidStudioProjects/GestionImmobilier/app/src/main/AndroidManifest.xml:22:19-72
+33        <activity android:name="com.example.gestionimmobilier.controleur.VillaConsultActivity" />
+33-->/Users/hyldailuobe/AndroidStudioProjects/GestionImmobilier/app/src/main/AndroidManifest.xml:23:9-69
+33-->/Users/hyldailuobe/AndroidStudioProjects/GestionImmobilier/app/src/main/AndroidManifest.xml:23:19-66
+34        <activity android:name="com.example.gestionimmobilier.controleur.TypeVillaConsultActivity" />
+34-->/Users/hyldailuobe/AndroidStudioProjects/GestionImmobilier/app/src/main/AndroidManifest.xml:24:9-73
+34-->/Users/hyldailuobe/AndroidStudioProjects/GestionImmobilier/app/src/main/AndroidManifest.xml:24:19-70
+35        <activity android:name="com.example.gestionimmobilier.controleur.PropositionActivity" />
+35-->/Users/hyldailuobe/AndroidStudioProjects/GestionImmobilier/app/src/main/AndroidManifest.xml:25:9-68
+35-->/Users/hyldailuobe/AndroidStudioProjects/GestionImmobilier/app/src/main/AndroidManifest.xml:25:19-65
+36        <activity
+36-->/Users/hyldailuobe/AndroidStudioProjects/GestionImmobilier/app/src/main/AndroidManifest.xml:26:9-33:20
+37            android:name="com.example.gestionimmobilier.controleur.MainActivity"
+37-->/Users/hyldailuobe/AndroidStudioProjects/GestionImmobilier/app/src/main/AndroidManifest.xml:26:19-58
+38            android:exported="true" >
+38-->/Users/hyldailuobe/AndroidStudioProjects/GestionImmobilier/app/src/main/AndroidManifest.xml:27:13-36
+39            <intent-filter>
+39-->/Users/hyldailuobe/AndroidStudioProjects/GestionImmobilier/app/src/main/AndroidManifest.xml:28:13-32:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->/Users/hyldailuobe/AndroidStudioProjects/GestionImmobilier/app/src/main/AndroidManifest.xml:29:17-69
+40-->/Users/hyldailuobe/AndroidStudioProjects/GestionImmobilier/app/src/main/AndroidManifest.xml:29:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->/Users/hyldailuobe/AndroidStudioProjects/GestionImmobilier/app/src/main/AndroidManifest.xml:31:17-77
+42-->/Users/hyldailuobe/AndroidStudioProjects/GestionImmobilier/app/src/main/AndroidManifest.xml:31:27-74
+43            </intent-filter>
+44        </activity>
+45
+46        <provider
+46-->[androidx.emoji2:emoji2:1.0.0] /Users/hyldailuobe/.gradle/caches/transforms-3/98f686da2fce73ff8e48ca6a893a34a2/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+47            android:name="androidx.startup.InitializationProvider"
+47-->[androidx.emoji2:emoji2:1.0.0] /Users/hyldailuobe/.gradle/caches/transforms-3/98f686da2fce73ff8e48ca6a893a34a2/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+48            android:authorities="com.example.gestionimmobilier.androidx-startup"
+48-->[androidx.emoji2:emoji2:1.0.0] /Users/hyldailuobe/.gradle/caches/transforms-3/98f686da2fce73ff8e48ca6a893a34a2/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+49            android:exported="false" >
+49-->[androidx.emoji2:emoji2:1.0.0] /Users/hyldailuobe/.gradle/caches/transforms-3/98f686da2fce73ff8e48ca6a893a34a2/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+50            <meta-data
+50-->[androidx.emoji2:emoji2:1.0.0] /Users/hyldailuobe/.gradle/caches/transforms-3/98f686da2fce73ff8e48ca6a893a34a2/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+51                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+51-->[androidx.emoji2:emoji2:1.0.0] /Users/hyldailuobe/.gradle/caches/transforms-3/98f686da2fce73ff8e48ca6a893a34a2/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+52                android:value="androidx.startup" />
+52-->[androidx.emoji2:emoji2:1.0.0] /Users/hyldailuobe/.gradle/caches/transforms-3/98f686da2fce73ff8e48ca6a893a34a2/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+53            <meta-data
+53-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/hyldailuobe/.gradle/caches/transforms-3/087e3e4f119bd3d4d28bb978bd0efd9b/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+54                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+54-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/hyldailuobe/.gradle/caches/transforms-3/087e3e4f119bd3d4d28bb978bd0efd9b/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+55                android:value="androidx.startup" />
+55-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/hyldailuobe/.gradle/caches/transforms-3/087e3e4f119bd3d4d28bb978bd0efd9b/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+56        </provider>
+57    </application>
+58
+59</manifest>

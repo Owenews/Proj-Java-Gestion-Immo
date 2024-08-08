@@ -1,0 +1,82 @@
+com/example/projgestionimmobiliere/modele/BD_SQLiteOpenHelper.java
+ com.example.projgestionimmobiliere.modele.BD_SQLiteOpenHelper
+com/example/projgestionimmobiliere/modele/TypeVillaDAO.java
+ com.example.projgestionimmobiliere.modele.TypeVillaDAO
+com/example/projgestionimmobiliere/controleur/LocatairesConsultDetailsActivity.java
+ com.example.projgestionimmobiliere.controleur.LocatairesConsultDetailsActivity
+com/example/projgestionimmobiliere/modele/Utilisateur.java
+ com.example.projgestionimmobiliere.modele.Utilisateur
+com/example/projgestionimmobiliere/controleur/TypeVillaConsultActivity.java
+ com.example.projgestionimmobiliere.controleur.TypeVillaConsultActivity
+com/example/projgestionimmobiliere/controleur/EquipementsAjoutActivity.java
+ com.example.projgestionimmobiliere.controleur.EquipementsAjoutActivity
+com/example/projgestionimmobiliere/modele/Equipement.java
+ com.example.projgestionimmobiliere.modele.Equipement
+com/example/projgestionimmobiliere/modele/Equiper.java
+ com.example.projgestionimmobiliere.modele.Equiper
+com/example/projgestionimmobiliere/controleur/EquipementsConsultActivity.java
+ com.example.projgestionimmobiliere.controleur.EquipementsConsultActivity
+com/example/projgestionimmobiliere/modele/LocataireDAO.java
+ com.example.projgestionimmobiliere.modele.LocataireDAO
+com/example/projgestionimmobiliere/modele/UtilisateurDAO.java
+ com.example.projgestionimmobiliere.modele.UtilisateurDAO
+com/example/projgestionimmobiliere/controleur/VillaAjoutActivity.java
+ com.example.projgestionimmobiliere.controleur.VillaAjoutActivity
+com/example/projgestionimmobiliere/controleur/MainActivity.java
+ com.example.projgestionimmobiliere.controleur.MainActivity
+ com.example.projgestionimmobiliere.controleur.MainActivity$1
+com/example/projgestionimmobiliere/modele/TypeVilla.java
+ com.example.projgestionimmobiliere.modele.TypeVilla
+com/example/projgestionimmobiliere/controleur/LocatairesConsultActivity.java
+ com.example.projgestionimmobiliere.controleur.LocatairesConsultActivity
+com/example/projgestionimmobiliere/controleur/LocatairesAjoutActivity.java
+ com.example.projgestionimmobiliere.controleur.LocatairesAjoutActivity
+com/example/projgestionimmobiliere/modele/EquiperDAO.java
+ com.example.projgestionimmobiliere.modele.EquiperDAO
+com/example/projgestionimmobiliere/modele/EquipementDAO.java
+ com.example.projgestionimmobiliere.modele.EquipementDAO
+com/example/projgestionimmobiliere/modele/Role.java
+ com.example.projgestionimmobiliere.modele.Role
+com/example/projgestionimmobiliere/controleur/EquipementsModifierSupprimerActivity.java
+ com.example.projgestionimmobiliere.controleur.EquipementsModifierSupprimerActivity
+com/example/projgestionimmobiliere/modele/Locataire.java
+ com.example.projgestionimmobiliere.modele.Locataire
+com/example/projgestionimmobiliere/BuildConfig.java
+ com.example.projgestionimmobiliere.BuildConfig
+com/example/projgestionimmobiliere/modele/RoleDAO.java
+ com.example.projgestionimmobiliere.modele.RoleDAO
+com/example/projgestionimmobiliere/modele/Reservation.java
+ com.example.projgestionimmobiliere.modele.Reservation
+com/example/projgestionimmobiliere/modele/Villa.java
+ com.example.projgestionimmobiliere.modele.Villa
+com/example/projgestionimmobiliere/controleur/PropositionActivity.java
+ com.example.projgestionimmobiliere.controleur.PropositionActivity
+ com.example.projgestionimmobiliere.controleur.PropositionActivity$1
+ com.example.projgestionimmobiliere.controleur.PropositionActivity$2
+ com.example.projgestionimmobiliere.controleur.PropositionActivity$3
+com/example/projgestionimmobiliere/controleur/ReservationsConsultDetailsActivity.java
+ com.example.projgestionimmobiliere.controleur.ReservationsConsultDetailsActivity
+ com.example.projgestionimmobiliere.controleur.ReservationsConsultDetailsActivity$1
+ com.example.projgestionimmobiliere.controleur.ReservationsConsultDetailsActivity$2
+ com.example.projgestionimmobiliere.controleur.ReservationsConsultDetailsActivity$3
+ com.example.projgestionimmobiliere.controleur.ReservationsConsultDetailsActivity$4
+com/example/projgestionimmobiliere/modele/VillaDAO.java
+ com.example.projgestionimmobiliere.modele.VillaDAO
+com/example/projgestionimmobiliere/modele/ReservationDAO.java
+ com.example.projgestionimmobiliere.modele.ReservationDAO
+com/example/projgestionimmobiliere/controleur/ReservationsConsultActivity.java
+ com.example.projgestionimmobiliere.controleur.ReservationsConsultActivity
+ com.example.projgestionimmobiliere.controleur.ReservationsConsultActivity$1
+ com.example.projgestionimmobiliere.controleur.ReservationsConsultActivity$2
+ com.example.projgestionimmobiliere.controleur.ReservationsConsultActivity$3
+ com.example.projgestionimmobiliere.controleur.ReservationsConsultActivity$4
+com/example/projgestionimmobiliere/controleur/VillaConsultActivity.java
+ com.example.projgestionimmobiliere.controleur.VillaConsultActivity
+ com.example.projgestionimmobiliere.controleur.VillaConsultActivity$1
+ com.example.projgestionimmobiliere.controleur.VillaConsultActivity$2
+ com.example.projgestionimmobiliere.controleur.VillaConsultActivity$3
+ com.example.projgestionimmobiliere.controleur.VillaConsultActivity$4
+com/example/projgestionimmobiliere/controleur/ReservationsAjoutActivity.java
+ com.example.projgestionimmobiliere.controleur.ReservationsAjoutActivity
+ com.example.projgestionimmobiliere.controleur.ReservationsAjoutActivity$1
+ com.example.projgestionimmobiliere.controleur.ReservationsAjoutActivity$2

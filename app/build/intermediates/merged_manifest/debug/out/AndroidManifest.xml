@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.projgestionimmobiliere"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="30" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Theme.ProjGestionImmobiliere" >
+        <activity android:name="com.example.projgestionimmobiliere.controleur.ReservationsAjoutActivity" />
+        <activity android:name="com.example.projgestionimmobiliere.controleur.ReservationsConsultDetailsActivity" />
+        <activity android:name="com.example.projgestionimmobiliere.controleur.ReservationsConsultActivity" />
+        <activity android:name="com.example.projgestionimmobiliere.controleur.LocatairesAjoutActivity" />
+        <activity android:name="com.example.projgestionimmobiliere.controleur.LocatairesConsultDetailsActivity" />
+        <activity android:name="com.example.projgestionimmobiliere.controleur.LocatairesConsultActivity" />
+        <activity android:name="com.example.projgestionimmobiliere.controleur.VillaAjoutActivity" />
+        <activity android:name="com.example.projgestionimmobiliere.controleur.EquipementsModifierSupprimerActivity" />
+        <activity android:name="com.example.projgestionimmobiliere.controleur.EquipementsAjoutActivity" />
+        <activity android:name="com.example.projgestionimmobiliere.controleur.EquipementsConsultActivity" />
+        <activity android:name="com.example.projgestionimmobiliere.controleur.VillaConsultActivity" />
+        <activity android:name="com.example.projgestionimmobiliere.controleur.TypeVillaConsultActivity" />
+        <activity android:name="com.example.projgestionimmobiliere.controleur.PropositionActivity" />
+        <activity android:name="com.example.projgestionimmobiliere.controleur.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

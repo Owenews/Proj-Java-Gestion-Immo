@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GestionImmobilier">
+        <activity android:name=".controleur.ReservationsAjoutActivity" />
+        <activity android:name=".controleur.ReservationsConsultDetailsActivity" />
+        <activity android:name=".controleur.ReservationsConsultActivity" />
+        <activity android:name=".controleur.LocatairesAjoutActivity" />
+        <activity android:name=".controleur.LocatairesConsultDetailsActivity" />
+        <activity android:name=".controleur.LocatairesConsultActivity" />
+        <activity android:name=".controleur.VillaAjoutActivity" />
+        <activity android:name=".controleur.EquipementsModifierSupprimerActivity" />
+        <activity android:name=".controleur.EquipementsAjoutActivity" />
+        <activity android:name=".controleur.EquipementsConsultActivity" />
+        <activity android:name=".controleur.VillaConsultActivity" />
+        <activity android:name=".controleur.TypeVillaConsultActivity" />
+        <activity android:name=".controleur.PropositionActivity" />
+        <activity android:name=".controleur.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
